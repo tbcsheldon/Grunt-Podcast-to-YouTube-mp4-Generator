@@ -3,7 +3,7 @@
 This Grunt script will take any numbers of pictures and a single mp3 file and create a mp4 file with the images appearing at evenly spaced intervals.
 
 ### What is going on here? ###
-Lets say you have an audio podcast and you want an easy way to get on YouTube. Grab some relevant jpg/jpeg images and a relevant mp3. Lets say you have 3 images from a 60 minute podcast. This script will count the number of images, divide the length on the mp3 by that number returning the interval number. Video files using each image are created with a duration of the interval number. When these files finish generating they are glued togeher to create an mp4 file the exact length of the source mp3. The joined mp4 and source mp3 and joined together to create the final product, a YouTube optimized mp4 with a photo slideshow. Now get on YouTube and monatize your content!
+Lets say you have an audio podcast and you want an easy way to get on YouTube. Grab some relevant jpg/jpeg images and a relevant mp3. Lets say you have 3 images from a 60 minute podcast. This script will count the number of images (3), divide the length of the mp3 (60) by that number (3) returning the interval number (20). Video files using each image are created with a duration of the interval number (20). When these files finish generating they are glued togeher to create an mp4 file the exact length of the source mp3 (60). The joined mp4 (60) and source mp3 (60) are glued together to create the final product, a YouTube optimized mp4 with a photo slideshow. Now get on YouTube and monatize your content!
 
 
 ### What is required? ###
